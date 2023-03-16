@@ -53,7 +53,7 @@ function draw() {
   noFill()
   beginShape()
   for (let i = 0; i < 361; i++) {
-    createVertex(i, variant.n, variant.d, width / 3.5)
+    createVertex(i, variant.n, variant.d, width / 4)
     smooth()
   }
   endShape()
